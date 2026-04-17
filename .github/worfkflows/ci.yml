@@ -16,4 +16,4 @@ jobs:
         run: docker build -t mi-app .
 
       - name: Ejecutar contenedor
-        run: docker run -d -p 80:80 mi-app
+        run: docker run -d -p 80:5000 mi-app
